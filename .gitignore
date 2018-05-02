@@ -3,12 +3,17 @@
 jdauphant.nginx
 vault.key
 
-# Vagrant & molecule
-.vagrant/
+# Molecule
 *.log
 *.pyc
 .molecule
 .cache
 .pytest-cache
+
+*.log
+*.tar
+*.pub
+credentials.json
+google_compute_engine
 
 .todo
